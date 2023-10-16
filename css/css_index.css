@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 0.1rem solid black;
+    align-items: center;
+}
+.logo {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+}
+main {
+    
+}
