@@ -1,7 +1,7 @@
 header {
     display: flex;
     flex-direction: row;
-    border-bottom: 0.1rem solid black;
+    border-bottom: 0.2rem solid black;
     align-items: center;
 }
 .logo {
@@ -11,5 +11,11 @@ header {
     margin: 0;
 }
 main {
-    
+    display: flex;
+    flex-direction: column;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
