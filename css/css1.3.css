@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 0.2rem solid black;
+    align-items: center;
+}
+.logo {
+    position: relative;
+    left: 50%;
+    transform: translateX(-85%);
+    margin: 0;
+}
+.pergunta {
+    justify-content: center;
+    padding: 1rem; 
+    border: 0.1rem solid black;
+    margin: 10%;
+}
+h2 {
+    font-style: italic;
+    font-size: x-large;
+    font-weight: bolder;
+}

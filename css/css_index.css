@@ -19,6 +19,11 @@ section {
     flex-direction: row;
     padding: 0.5rem;
 }
+nav {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+}
 h2 {
     font-style: italic;
     font-size: x-large;
