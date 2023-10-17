@@ -1,0 +1,55 @@
+header {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 0.2rem solid black;
+    align-items: center;
+}
+.logo {
+    position: relative;
+    left: 50%;
+    transform: translateX(-85%);
+    margin: 0;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+section {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
+body {
+    background-color: burlywood;
+}
+h2 {
+    font-style: italic;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.pergunta {
+    justify-content: center;
+    padding: 1rem; 
+    border: 0.1rem solid black;
+    margin: 10%;
+}
+.linha {
+    flex-direction: row;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ok {
+    align-self: center;
+}
+
+label {
+    font-size: large;
+    font-weight: bold;
+}

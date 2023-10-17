@@ -5,32 +5,43 @@
     <title>GetMaid</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "css/reset.css">
-    <link rel = "stylesheet" href = "css/css1.1.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/css1.1.css">
 </head>
 
 <body>
     <header>
-        <img src="img/logo.png" alt="logo">
-        <h1>
-            GetMaid
-        </h1>
+        <img src="http://via.placeholder.com/44x44" alt="">
+        <img class="logo" src="img/logo.png" alt="logo">
     </header>
     <main>
-        <a href="#">texto</a>
-        <input type="checkbox" id="limpeza" name="limpeza">
-        <label for="limpeza">limpeza</label>
+        <section class="pergunta">
+            <h2>Do que você precisa?</h2>
+        </section>
+        <section class="space-around">
+            <nav>
+                <label for="limpeza">Limpeza</label>
+                <input type="checkbox" id="limpeza" name="limpeza">
+            </nav>
+            <nav>
+                <label for="cozinhar">Cozinhar</label>
+                <input type="checkbox" id="cozinhar" name="cozinhar">
+            </nav>
+        </section>
+        <section class="space-around">
+            <nav>
+                <label for="lavar_louca">Lavar louça</label>
+                <input type="checkbox" id="lavar_louca" name="lavar_louca">
+            </nav>
+            <nav>
+                <label for="lavar_roupa">Lavar roupa</label>
+                <input type="checkbox" id="lavar_roupa" name="lavar_roupa">
+            </nav>
+        </section>
 
-        <input type="checkbox" id="cozinhar" name="cozinhar">
-        <label for="cozinhar">cozinhar</label>
-
-        <input type="checkbox" id="lavar_roupa" name="lavar_roupa">
-        <label for="lavar_roupa">lavar_roupa</label>
-
-        <input type="checkbox" id="lavar_louça" name="lavar_louça">
-        <label for="lavar_louça">lavar_louça</label>
-
-        <a href="fluxo_de_tela1.2.html">PRÓXIMO</a>
+        <form class="ok" action="fluxo_de_tela1.2.html">
+            <input type="submit" value="OK">
+        </form>
     </main>
 </body>
 
