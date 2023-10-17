@@ -18,6 +18,40 @@ header {
 }
 h2 {
     font-style: italic;
-    font-size: x-large;
+    font-size: large;
     font-weight: bolder;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+.usuario {
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    border: 0.1rem solid black;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    background-color: burlywood;
+}
+input {
+    margin-top: 4rem;
+    transform: scale(4);
+}
+form {
+    position: absolute;
+    align-self: center;
+    bottom: 25%;
 }
