@@ -12,9 +12,12 @@ header{
     transform: translateX(-50%);
     
 }
+body{
+    background-color: burlywood;
+}
 
 h2{
-    margin: 2rem;
+    margin: 3rem;
     font-style: italic;
     font-size: 2.5rem;
     font-weight: bolder;
@@ -36,9 +39,24 @@ nav {
 
 .padd {
     padding: 2rem;
+    height: 2.5rem;
 }
 
 .linha {
     display: flex;
     flex-direction: row;
 }
+
+form{
+    margin-top: 20rem;
+    margin-left: 3rem;
+}
+
+nav{
+    margin-top: 0.1rem;
+    align-self: center;
+    margin-left: 8.5rem;
+    transform: scale(1.5);
+
+
+}   
