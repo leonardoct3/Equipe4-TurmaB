@@ -18,11 +18,23 @@
 
         <h2> Sua avaliação do serviço:</h2>
 
-        <img class='estrelas' src="estrelas.jpg" alt="estrelas">
+        <div class="rating">
+            <!--elements are in reversed order, to allow "previous sibling selectors" in CSS-->
+            <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+            <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+            <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+            <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+            <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+        </div>
+          
 
-        <p> Adicione aos favoritos <img class = 'favorite' src="img/favorito.png" alt="favorito"> </p>
+        <p class = "add-favoritos"> Adicione aos favoritos </p>
+                
+        <img class = 'favorite' src="img/favorito.png" alt="favorito">
 
-        <a href="fluxo_de_tela3.3.html">COMENTE...</a>
+        <form class="ok" action="fluxo_de_tela3.3.html">
+            <input type="submit" value="COMENTE AQUI">
+        </form>
 
     </main>
 </body>
