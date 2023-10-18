@@ -10,5 +10,35 @@ header{
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    margin: 0;
+    
+}
+
+h2{
+    margin: 2rem;
+    font-style: italic;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    display: flex;
+    align-self: center;
+    border: 0.1rem solid black;
+    padding:1.5rem;
+    padding-left: 3rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    padding: 0.1rem;
+    margin-left: 2.5rem;
+    position:relative;
+    top:5rem;
+}
+
+.padd {
+    padding: 2rem;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
 }
