@@ -1,0 +1,14 @@
+header{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 0.2rem solid black;
+    align-items: center;
+}
+
+.logo{
+    align-self: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+}
