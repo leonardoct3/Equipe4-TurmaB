@@ -20,14 +20,7 @@ main {
     flex-direction: column;
     align-items: center;
 }
-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin: 1rem;
-    margin-bottom: 5rem;
-}
-.pergunta {
+.match {
     justify-content: center;
     padding: 1rem; 
     border: 0.1rem solid black;
@@ -39,10 +32,17 @@ div {
     padding-bottom: 0.1rem;
     border: 0.1rem solid black;
 }
-section {
+.section1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 5rem;
+}
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 1rem;
     margin-bottom: 5rem;
 }
 .linha {
@@ -52,7 +52,7 @@ section {
 body {
     background-color: burlywood;
 }
-.ok {
+.conversar {
     align-self: center;
 }
 input {
