@@ -38,6 +38,8 @@ nav {
     flex-direction: row;
     padding: 0.1rem;
     margin: 3rem;
+    position:relative;
+    top:25rem;
 }
 .ok {
     align-self: center;
@@ -58,4 +60,11 @@ h3{
     left: 50%;
     transform: translateX(-18%);
     margin: 0; 
+}
+.padd {
+    padding: 2rem;
+}
+.linha {
+    display: flex;
+    flex-direction: row;
 }
