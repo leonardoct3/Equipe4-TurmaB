@@ -28,13 +28,16 @@ h2{
     padding-left: 3rem;
 }
 
-nav {
+.finalizar {
     display: flex;
     flex-direction: row;
     padding: 0.1rem;
     margin-left: 2.5rem;
     position:relative;
     top:5rem;
+    align-self: center;
+    margin-left: 12rem;
+    transform: scale(1.8);
 }
 
 .padd {
@@ -47,16 +50,8 @@ nav {
     flex-direction: row;
 }
 
-form{
-    margin-top: 20rem;
+
+.digite-aqui{
+    margin-top: 23rem;
     margin-left: 3rem;
 }
-
-nav{
-    margin-top: 0.1rem;
-    align-self: center;
-    margin-left: 8.5rem;
-    transform: scale(1.5);
-
-
-}   
