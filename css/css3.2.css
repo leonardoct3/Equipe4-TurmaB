@@ -78,6 +78,8 @@ input {
     align-self: center;
     margin: 5rem;
     transform: scale(2.5);
+    background-color: #f7deff;
+    
 }
 
 /*shows the stars side by side, centered, and in reverse order than the HMTL*/
