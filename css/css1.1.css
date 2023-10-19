@@ -1,8 +1,9 @@
 header {
     display: flex;
     flex-direction: row;
-    border-bottom: 0.2rem solid black;
+    border-bottom: 0.2rem solid grey;
     align-items: center;
+    background-color: #f7deff;
 }
 .logo {
     position: relative;
@@ -21,7 +22,7 @@ div {
     margin: 1rem;
 }
 body {
-    background-color: burlywood;
+    background-color: #f2f2f2;
 }
 h2 {
     font-style: italic;
