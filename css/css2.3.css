@@ -37,6 +37,8 @@ body {
     background-color: #f2f2f2;
 }
 .section2 {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     padding: 1rem; 
     border: 0.1rem solid black;
@@ -49,29 +51,26 @@ h3{
     font-size: large;
     font-weight: bolder;
     position: relative;
-    left: 50%;
-    transform: translateX(-2.5rem);
-    margin: 0; 
 }
 .section3 {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    justify-content: flex-end;
     padding: 1rem; 
     border: 0.1rem solid black;
     margin-top: 20%;
     margin-bottom: 15%;
     margin-left: 28%;
-    margin-right: 5%;
     background-color: #f2f2f2;
 }
 .section4 {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     padding: 1rem; 
     border: 0.1rem solid black;
     margin-bottom: 15%;
     margin-right: 60%;
-    margin-left: 1%;
     background-color: #f2f2f2;
 }
 .botao-digitar {
