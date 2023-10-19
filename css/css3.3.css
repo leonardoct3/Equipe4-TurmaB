@@ -1,8 +1,9 @@
 header{
     display: flex;
     flex-direction: row;
-    border-bottom: 0.2rem solid black;
+    border-bottom: 0.2rem solid grey;
     align-items: center;
+    background-color: #F7deff;
 }
 
 .logo{
@@ -13,7 +14,7 @@ header{
     
 }
 body{
-    background-color: burlywood;
+    background-color: #f2f2f2;
 }
 
 form {
@@ -27,7 +28,7 @@ h2{
     font-style: italic;
     font-size: 2.5rem;
     font-weight: bolder;
-    border: 0.1rem solid black;
+    border: 0.1rem solid grey;
     padding: 1rem;
 }
 section {
@@ -56,4 +57,7 @@ section {
 }
 main {
     align-items: center;
+}
+.x {
+    background-color: #F7deff;
 }
