@@ -3,6 +3,8 @@ header {
     flex-direction: row;
     border-bottom: 0.2rem solid black;
     align-items: center;
+    background-color: #F7deff;
+    border-bottom: 0.15rem solid #808080;
 }
 .logo {
     position: relative;
@@ -13,8 +15,9 @@ header {
 .section1 {
     display: flex;
     flex-direction: row;
-    border-bottom: 0.2rem solid black;
     align-items: center;
+    background-color: #f2f2f2;;
+    
 }
 h2{ 
     font-size: large;
@@ -31,7 +34,7 @@ h2{
     width: 10%;
 }
 body {
-    background-color: burlywood;
+    background-color: #f2f2f2;;
 }
 .section2 {
     justify-content: center;
@@ -40,7 +43,7 @@ body {
     margin-left: 1.4rem;
     margin-right: 1.4rem;
     border-radius:1.4rem;
-    background-color: rgb(78, 216, 78);
+    background-color: #F7deff;
 }
 h3{
     font-size: large;
@@ -63,6 +66,7 @@ h3{
 }
 .padd {
     padding: 2rem;
+    
 }
 .linha {
     display: flex;
