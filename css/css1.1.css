@@ -58,4 +58,9 @@ label {
 input {
     margin: 3rem;
     transform: scale(4);
+    background-color: #f7deff;
 }
+
+input[type="checkbox"]:checked {
+    background-color: green; /* Cor de fundo quando marcada */
+  }
