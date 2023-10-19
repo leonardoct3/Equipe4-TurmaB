@@ -1,8 +1,9 @@
 header{
     display: flex;
     flex-direction: row;
-    border-bottom: 0.2rem solid black;
     align-items: center;
+    background-color: #F7deff;
+    border-bottom: 0.15rem solid #808080;
 }
 
 .logo{
@@ -19,7 +20,7 @@ header{
 }
 
 body {
-    background-color: burlywood;
+    background-color: #f2f2f2;
 }
 
 main{
@@ -37,7 +38,7 @@ h2{
     font-weight: bolder;
     display: flex;
     align-self: center;
-    border: 0.1rem solid black;
+    border: 0.15rem solid #808080;
     padding: 2.5%;
 
 }
@@ -57,6 +58,8 @@ input {
     align-self: center;
     margin: 5rem;
     transform: scale(2);
+    background-color: #F7deff;
+
 }
 
 form {
