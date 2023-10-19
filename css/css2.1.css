@@ -1,8 +1,10 @@
 header {
     display: flex;
     flex-direction: row;
-    border-bottom: 0.2rem solid black;
+    border-bottom: 0.15rem solid #808080;
     align-items: center;
+    background-color: #F7deff;
+
 }
 .logo {
     position: relative;
@@ -19,6 +21,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 5.5rem;
 }
 .match {
     justify-content: center;
@@ -50,8 +53,9 @@ main {
     flex-direction: row;
 }
 body {
-    background-color: burlywood;
+    background-color: #f2f2f2;;
 }
+
 .conversar {
     align-self: center;
 }
