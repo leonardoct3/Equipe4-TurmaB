@@ -52,7 +52,7 @@ main {
 .linha {
     display: flex;
     flex-direction: row;
-    margin-top: 5rem;
+    margin-top: 2.5rem;
 }
 body {
     background-color: #f2f2f2;;
