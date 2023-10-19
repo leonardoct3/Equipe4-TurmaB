@@ -129,9 +129,10 @@ input {
     position: relative;
     width: 30px;
     height: 35px;
-    background-color: #43414a;
+    background-color: #f7deff;
     display: inline-block;
     cursor: pointer;
+    border-bottom: 0.15rem solid #808080;
 }
 
 .icon_saved:after {
