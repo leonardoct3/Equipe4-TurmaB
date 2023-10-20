@@ -34,7 +34,8 @@ h2{
     width: 10%;
 }
 body {
-    background-color: #f2f2f2;;
+    background-color: #f2f2f2;
+    font-family: 'Playfair Display', serif;
 }
 .section2 {
     display: flex;
@@ -78,4 +79,7 @@ h3{
 }
 a{
     text-decoration: none;
+}
+input {
+    font-family: 'Playfair Display', serif;
 }

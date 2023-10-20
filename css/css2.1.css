@@ -50,6 +50,7 @@ main {
     justify-content: space-around;
     margin: 1rem;
     margin-bottom: 15rem;
+    font-weight: bold;
 }
 .disc {
 	list-style-type: disc;
@@ -62,7 +63,8 @@ main {
     flex-direction: row;
 }
 body {
-    background-color: #f2f2f2;;
+    background-color: #f2f2f2;
+    font-family: 'Playfair Display', serif;
 }
 .x {
     align-self: center;
@@ -71,6 +73,7 @@ body {
 }
 input {
     transform: scale(2);
+    font-family: 'Playfair Display', serif;
 }
 a{
     text-decoration: none;
