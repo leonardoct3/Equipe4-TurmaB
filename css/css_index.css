@@ -57,7 +57,6 @@ body {
 li {
     padding-top: 1rem;
     font-size: larger;
-    list-style: circle;
 }
 .padd {
     padding: 0.5rem;
@@ -81,9 +80,6 @@ footer {
     border-radius: 50%;
 
 }
-ul {
-    list-style: circle;
-}
 .coluna {
     display: flex;
     flex-direction: column;
@@ -95,6 +91,7 @@ ul {
 }
 a {
     text-decoration: none;
+    color: #443Fcc;
 }
 .borda {
     border-bottom: 0.05rem solid grey;
