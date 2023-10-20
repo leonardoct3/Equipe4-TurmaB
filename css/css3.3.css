@@ -5,24 +5,20 @@ header{
     align-items: center;
     background-color: #F7deff;
 }
-
 .logo{
     align-self: center;
     position: relative;
     left: 50%;
-    transform: translateX(-100%);
-    
+    transform: translateX(-100%);   
 }
 body{
     background-color: #f2f2f2;
 }
-
 form {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-
 h2{
     margin-top: 3rem;
     font-style: italic;
@@ -40,18 +36,15 @@ section {
     margin-top: 3rem;
     transform: scale(1.5);
 }
-
 .padd {
     padding: 2rem;
     height: 2.5rem;
+    border-color:#808080;
 }
-
 .linha {
     display: flex;
     flex-direction: row;
 }
-
-
 .digite-aqui{
     margin-top: 23rem;
 }
@@ -60,6 +53,7 @@ main {
 }
 .x {
     background-color: #F7deff;
+    border-color:#808080;
 }
 a{
     text-decoration: none;

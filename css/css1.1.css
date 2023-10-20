@@ -32,7 +32,7 @@ h2 {
 .pergunta {
     justify-content: center;
     padding: 1rem; 
-    border: 0.1rem solid black;
+    border: 0.1rem solid #808080;
     margin: 10%;
 }
 .linha {
@@ -59,6 +59,7 @@ input {
     margin: 3rem;
     transform: scale(4);
     background-color: #f7deff;
+    border-color:#808080;
 }
 a{
     text-decoration: none;

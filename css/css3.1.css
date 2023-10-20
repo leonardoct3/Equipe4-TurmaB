@@ -59,7 +59,7 @@ input {
     margin: 5rem;
     transform: scale(2);
     background-color: #F7deff;
-
+    border-color:#808080;
 }
 
 form {

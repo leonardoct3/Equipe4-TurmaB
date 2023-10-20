@@ -39,6 +39,7 @@ input {
     margin: 5rem;
     transform: scale(3);
     background-color: #F7deff;
+    border-color:#808080;
 }
 
 form {
