@@ -81,6 +81,9 @@ input {
     background-color: #f7deff;
     border-color: #808080;
 }
+a{
+    text-decoration: none;
+}
 
 /*shows the stars side by side, centered, and in reverse order than the HMTL*/
 .rating {

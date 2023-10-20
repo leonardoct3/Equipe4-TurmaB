@@ -60,3 +60,6 @@ form {
 .ok{
     background-color: #F7deff;
 }
+a{
+    text-decoration: none;
+}

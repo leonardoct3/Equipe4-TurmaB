@@ -67,3 +67,6 @@ body {
 input {
     transform: scale(2);
 }
+a{
+    text-decoration: none;
+}

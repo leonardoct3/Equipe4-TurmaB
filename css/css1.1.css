@@ -60,4 +60,6 @@ input {
     transform: scale(4);
     background-color: #f7deff;
 }
-
+a{
+    text-decoration: none;
+}
