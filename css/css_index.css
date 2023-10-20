@@ -69,7 +69,6 @@ footer {
     border-top: 0.2rem solid grey;
     justify-content: space-around;
     background-color: #F7deff;
-    padding: 0.5rem;
 }
 .coluna {
     display: flex;
