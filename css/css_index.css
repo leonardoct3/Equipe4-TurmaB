@@ -61,6 +61,7 @@ li {
 .padd {
     padding: 0.5rem;
     border-radius: 20%;
+    border-color:#808080;
 }
 footer {
     display: flex;
@@ -69,16 +70,6 @@ footer {
     justify-content: space-around;
     background-color: #F7deff;
     padding: 0.5rem;
-}
-.notificacao {
-    position: relative;
-    left: 85%;
-    bottom: -10%;
-    height: 20px;
-    width: 20px;
-    background-color: red;
-    border-radius: 50%;
-
 }
 .coluna {
     display: flex;
@@ -95,6 +86,11 @@ a {
 }
 .borda {
     border-bottom: 0.05rem solid grey;
+}
+.x {
+    border-radius: 20%;
+    background-color: #F7deff;
+    border-color:#808080;
 }
 
 input {

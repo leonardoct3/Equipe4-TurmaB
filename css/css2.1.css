@@ -16,6 +16,7 @@ h2 {
     font-style: italic;
     font-size: large;
     font-weight: bolder;
+    margin-top:5%;
 }
 main {
     display: flex;
@@ -29,12 +30,13 @@ main {
     border: 0.1rem solid black;
     margin: 10%;
     background-color: #F7deff;
+    border-color:#808080;
 }
 
 .usuario {
     padding-top: 0.1rem;
     padding-bottom: 0.1rem;
-    border: 0.1rem solid black;
+    border: 0.1rem solid #808080;
 }
 .section1 {
     display: flex;
@@ -42,27 +44,30 @@ main {
     align-items: center;
     margin-bottom: 6.5rem;
 }
-.section2 {
+.descricao {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin: 1rem;
     margin-bottom: 15rem;
 }
+.disc {
+	list-style-type: disc;
+}
+.espaco{
+    margin-left:10%;
+}
 .linha {
     display: flex;
     flex-direction: row;
-    margin-top: 2.5rem;
 }
 body {
     background-color: #f2f2f2;;
 }
-
 .x {
     align-self: center;
     background-color: #F7deff;
-    
-
+    border-color:#808080;
 }
 input {
     transform: scale(2);
