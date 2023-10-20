@@ -18,8 +18,8 @@ main {
 }
 div {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    margin: 1rem;
 }
 body {
     background-color: #f2f2f2;
@@ -30,6 +30,7 @@ h2 {
     font-weight: bolder;
 }
 .pergunta {
+    display: flex;
     justify-content: center;
     padding: 1rem; 
     border: 0.1rem solid #808080;
@@ -39,12 +40,11 @@ h2 {
     flex-direction: row;
 }
 
-nav {
+form {
     display: flex;
     flex-direction: column;
     padding: 1rem;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 .ok {
     align-self: center;
