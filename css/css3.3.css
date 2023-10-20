@@ -13,6 +13,7 @@ header{
 }
 body{
     background-color: #f2f2f2;
+    font-family: 'Playfair Display', serif;
 }
 form {
     display: flex;
@@ -57,4 +58,7 @@ main {
 }
 a{
     text-decoration: none;
+}
+input {
+    font-family: 'Playfair Display', serif;
 }
