@@ -79,7 +79,10 @@ input {
     margin: 5rem;
     transform: scale(2.5);
     background-color: #f7deff;
-    
+    border-color: #808080;
+}
+a{
+    text-decoration: none;
 }
 
 /*shows the stars side by side, centered, and in reverse order than the HMTL*/
@@ -97,7 +100,7 @@ input {
     position: relative;
     width: 1.1em;
     font-size: 15vw;
-    color: #FFD700;
+    color: #443FCC;
     cursor: pointer;
   }
   
@@ -121,18 +124,14 @@ input {
   /*when an element is selected and pointer re-enters the rating container, selected rate and siblings get semi transparent, as reminder of current selection*/
   .rating:hover > input:checked ~ label:before{ opacity: 0.4; }
   
-  
-
-
-
 .icon_saved {
     position: relative;
     width: 30px;
     height: 35px;
-    background-color: #c688d9;
+    background-color:#808080 ;
     display: inline-block;
     cursor: pointer;
-    border-bottom: 0.15rem solid #808080;
+    border-bottom: 0.1rem solid #F2F2F2;
 }
 
 .icon_saved:after {
@@ -142,7 +141,7 @@ input {
     display: block;
     border: 9px transparent solid;
     border-top-width: 0;
-    border-bottom-color: #fff;
+    border-bottom-color: #F7DEFF;
     position: absolute;
     bottom: 0;
     left: 1px;
@@ -150,6 +149,6 @@ input {
 
 .icon_saved:hover,
 .icon_saved.active {
-    background-color: #ffa900;
+    background-color: #c688d9;
 }
 

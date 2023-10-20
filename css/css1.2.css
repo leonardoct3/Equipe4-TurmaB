@@ -44,3 +44,6 @@ input {
 form {
     align-self: center;
 }
+a{
+    text-decoration: none;
+}
