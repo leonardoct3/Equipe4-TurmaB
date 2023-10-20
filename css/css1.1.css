@@ -1,7 +1,7 @@
 header {
     display: flex;
     flex-direction: row;
-    border-bottom: 0.2rem solid grey;
+    border-bottom: 0.2rem solid #808080;
     align-items: center;
     background-color: #f7deff;
 }

@@ -44,12 +44,18 @@ main {
     align-items: center;
     margin-bottom: 6.5rem;
 }
-.section2 {
+.descricao {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin: 1rem;
     margin-bottom: 15rem;
+}
+.disc {
+	list-style-type: disc;
+}
+.espaco{
+    margin-left:10%;
 }
 .linha {
     display: flex;
