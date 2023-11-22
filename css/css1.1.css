@@ -49,7 +49,17 @@ form {
 }
 .ok {
     align-self: center;
+    border: none; 
+    font-family: 'Playfair Display', serif;
+    accent-color: #c686d9;
 }
+
+.ok input[type="submit"] {
+    border: none;
+    outline: none;
+    border: 2px solid #808080;
+}
+
 
 label {
     font-size: large;
@@ -60,10 +70,10 @@ input {
     margin: 3rem;
     transform: scale(4);
     background-color: #f7deff;
-    border-color:#808080;
     font-family: 'Playfair Display', serif;
     accent-color: #808080;
 }
+
 a{
     text-decoration: none;
 }

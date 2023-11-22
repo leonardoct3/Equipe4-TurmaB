@@ -74,6 +74,9 @@ body {
 input {
     transform: scale(2);
     font-family: 'Playfair Display', serif;
+    border: none;
+    outline: none;
+    border: 2px solid #808080;
 }
 a{
     text-decoration: none;

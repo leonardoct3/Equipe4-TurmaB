@@ -43,6 +43,22 @@ input {
     border-color:#808080;
     font-family: 'Playfair Display', serif;
 }
+input[type="date"] {
+    border: none;
+    outline: none;
+    border: 2px solid #808080;
+}
+
+input[type="time"] {
+    border: none;
+    outline: none;
+    border: 2px solid #808080;
+}
+input[type="submit"] {
+    border: none;
+    outline: none;
+    border: 2px solid #808080;
+}
 
 form {
     align-self: center;
