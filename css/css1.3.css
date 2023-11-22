@@ -52,6 +52,7 @@ input {
     margin-top: 4rem;
     transform: scale(4);
     font-family: 'Playfair Display', serif;
+    accent-color: #808080;
 }
 form {
     position: absolute;
